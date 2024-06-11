@@ -17,14 +17,10 @@ body {
 .invisable{
     display: none;
 }
-.menu-button{
-    position: absolute;
+.btn{
     width: 40px;
     height: 40px;
-    top: 30px;
-    left: 50px;
     background-color: var(--main-color);
-    padding: 10px 20px;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -33,19 +29,15 @@ body {
     justify-content: center;
     align-items: center;
 }
-.menu-button button{
-    background-color: transparent;
-    border: none;
-}
-.menu-button button i{
+.btn i{
     font-size: 20px;
     color: #fff;
     cursor: pointer;
 }
-.menu-button button:hover{
+.btn:hover{
     transition: 0.6s;
-    background-color: transparent;
-    scale: 0.9;
+    background-color: #e96666;
+    scale: 0.97;
 }
 .container {
   display: flex;
